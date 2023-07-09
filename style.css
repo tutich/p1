@@ -1,0 +1,7 @@
+.container{
+width: 1440px;
+position: relative;
+padding: 70px;
+background-color: antiquewhite;
+color: hwb(0 6% 94%);
+}
