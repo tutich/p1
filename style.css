@@ -2,6 +2,8 @@
 width: 1440px;
 position: relative;
 padding: 70px;
-background-color: antiquewhite;
+background-color: rgb(4, 94, 56);
 color: hwb(0 6% 94%);
+font-weight: 400, 700;
+font-family: (https://fonts.google.com/specimen/Outfit) ;
 }
