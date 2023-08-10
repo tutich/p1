@@ -1,9 +1,36 @@
-.container{
-width: 1440px;
-position: relative;
-padding: 70px;
-background-color: rgb(4, 94, 56);
-color: hwb(0 6% 94%);
-font-weight: 400, 700;
-font-family: (https://fonts.google.com/specimen/Outfit) ;
+body{
+    padding: 5%;
+    border: 10px white;
+    margin: 10px;
+}
+.wrapper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.container h1{
+    color: hsl(218, 44%, 22%);
+    font-weight: 400, 700;
+    font-family: "Outfit";
+    text-align: center;
+    
+}
+.container p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400, 700;
+    font-family: "Outfit";
+    
+}
+.flex-container
+/* On screens that are 375px wide or less */
+@media screen and (max-width: 375px) {
+    background-color: hsl(0, 0%, 100%);
+}
+/* On screens that are 1440px wide or less */
+@media screen and (max-width: 1440px) {
+    background-color: hsl(0, 0%, 100%);
 }
