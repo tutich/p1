@@ -25,7 +25,9 @@ body{
     font-family: "Outfit";
     
 }
-.flex-container
+.flex-container{
+    
+}
 /* On screens that are 375px wide or less */
 @media screen and (max-width: 375px) {
     background-color: hsl(0, 0%, 100%);
